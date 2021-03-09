@@ -10,15 +10,19 @@
 2. Fill in the required information and press the „Create Account“ button.
 3. After you submit your registration, you will receive an e-mail from the IBM Cloud team with details about your account. In this e-mail, you will need to click the link provided to confirm your registration.
 4. Now you should be able to login to your new IBM Cloud account ;-)
-5. Set up an Spotify Developer account [Spotify Dev account](https://developer.spotify.com/dashboard/login).
+5. Also sign up for an [Spotify Developer account](https://developer.spotify.com/dashboard/login).
 
-## Configuring the Watson Assistant on the IBM Cloud
+## Setting up Spotify API
 
-<h4>1) Create a Watson Assistant Service</h4>
-After the login you will see your IBM Cloud Dashboard. In the upper menu bar click Catalog. In the Catalog section, click on the AI category, then select Watson Assistant. On the next page select the Lite Plan - or the Plus Trial - these should cover all deployment options and you can also choose a region, where you would like to deploy your service as well as a service name. Click "Create".
+<h4>1) Create an Spotify App</h4>
+After the login you will see your Spotify Developer Dashboard. There you will have to create an app. Give it a name, click on Create and it should look similar to the screenshot.
 
-![Catalog Watson Assistant](readme_images/catalog-watson-assistant.png)
+![1 Spotify App](readme_images/1_create_spotify_app.png)
 
+<h4>1) Get credentials</h4>
+Now navigate to the app and you should find the Client ID and below that the Client Secret (click on "Show Client Secret" to view it). Save the two somewhere safe because we will need them soon in our Python Code.
+
+![2 Credentials](readme_images/2_credentials.png)
 
 ## If you have any questions just contact me
 Sami Haddouti<br>
