@@ -32,13 +32,11 @@ Go to your coding environment and open your terminal to install [Spotipy](https:
 
 ```
 pip install spotipy
-
 ```
 or to upgrade:
 
 ```
 pip install spotipy --upgrade
-
 ```
 
 ## If you have any questions just contact me
