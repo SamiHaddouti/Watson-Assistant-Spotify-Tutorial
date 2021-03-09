@@ -11,6 +11,7 @@
 3. After you submit your registration, you will receive an e-mail from the IBM Cloud team with details about your account. In this e-mail, you will need to click the link provided to confirm your registration.
 4. Now you should be able to login to your new IBM Cloud account ;-)
 5. Also sign up for an [Spotify Developer account](https://developer.spotify.com/dashboard/login).
+6. Lastly install [Python](https://www.python.org/downloads/) and a coding environment like [Visual Studio](https://www.python.org/downloads/) for example.
 
 ## Setting up Spotify API
 
@@ -23,6 +24,22 @@ After the login you will see your Spotify Developer Dashboard. There you will ha
 Now navigate to the app and you should find the Client ID and below that the Client Secret (click on "Show Client Secret" to view it). Save the two somewhere safe because we will need them soon in our Python Code.
 
 ![2 Credentials](readme_images/2_credentials.png)
+
+## Connect to the Spotify API 
+
+<h4>1) Install Spotipy</h4>
+Go to your coding environment and open your terminal to install [Spotipy](https://spotipy.readthedocs.io/en/2.9.0/#), a Python library to work with the Spotify Web API. Use the following command:
+
+```
+pip install spotipy
+
+```
+or to upgrade:
+
+```
+pip install spotipy --upgrade
+
+```
 
 ## If you have any questions just contact me
 Sami Haddouti<br>
