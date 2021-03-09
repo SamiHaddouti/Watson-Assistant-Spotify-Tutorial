@@ -1,6 +1,6 @@
 
 
-<h1 align="center" style="border-bottom: none;">🤖: IBM Watson Assistant  Tutorial</h1>
+<h1 align="center" style="border-bottom: none;">🤖 IBM Watson Assistant  Tutorial 🤖</h1>
 <h3 align="center">In this tutorial you will see how to link the IBM Cloud Watson Assistant to the Spotify API using Python and the IBM Cloud Functions to search for songs, albums or artists. </h3>
 
 
@@ -19,7 +19,7 @@ After the login you will see your Spotify Developer Dashboard. There you will ha
 
 ![1 Spotify App](readme_images/1_create_spotify_app.png)
 
-<h4>1) Get credentials</h4>
+<h4>2) Get credentials</h4>
 Now navigate to the app and you should find the Client ID and below that the Client Secret (click on "Show Client Secret" to view it). Save the two somewhere safe because we will need them soon in our Python Code.
 
 ![2 Credentials](readme_images/2_credentials.png)
