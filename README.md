@@ -28,7 +28,7 @@ Now navigate to the app and you should find the Client ID and below that the Cli
 ## Connect to the Spotify API 
 
 <h4>1) Install Spotipy</h4>
-Go to your coding environment and open your terminal to install [Spotipy](https://spotipy.readthedocs.io/en/2.17.1/) is a Python library to work with the Spotify Web API. Use the following command: 
+Go to your prefered coding environment and open your terminal to install [Spotipy](https://spotipy.readthedocs.io/en/2.17.1/) is a Python library to work with the Spotify Web API. Use the following command: 
 
 ```
 pip install spotipy
@@ -38,6 +38,16 @@ or to upgrade:
 ```
 pip install spotipy --upgrade
 ```
+<h4>1) Access API</h4>
+Now create an python file in your coding environment and import Spotipy:  
+```
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+```
+To access the Spotify API we need to establish a connection and provide the API with the required credentials. 
+Create two string variables ```called client_id ``` and ```client_secret``` and assign them the Client ID and Client Secret we saved earlier.
+
+
 
 ## If you have any questions just contact me
 Sami Haddouti<br>
