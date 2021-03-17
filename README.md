@@ -42,7 +42,7 @@ Now navigate to Actions and create a new Action. The name and package is up to y
 
 Copy and Paste the Python Code from the SpotifySearch.py file in your action. Most of the code is explained with comments but if you find something odd or encounter problems don't bother to ask.
 
-
+In your action dashboard go to Endpoints and write down the REST API URL and the API KEY which consists of a username (everthing in front of the colon = :) and a password (the rest after the colon). We will need the URL and authentication for later to link our function to the assistant.
 
 
 ## If you have any questions just contact me
