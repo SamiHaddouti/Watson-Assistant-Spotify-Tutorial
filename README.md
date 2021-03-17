@@ -16,12 +16,14 @@
 ## Setting up Spotify API
 
 <h4>1) Create an Spotify App</h4>
-After the login you will see your Spotify Developer Dashboard. There you will have to create an app. Give it a name, click on Create and it should look similar to the screenshot.  <br>
+After the login you will see your Spotify Developer Dashboard. There you will have to create an app. Give it a name, click on Create and it should look similar to the screenshot. 
+&nbsp;
 
 ![1 Spotify App](readme_images/1_create_spotify_app.png)
 
 <h4>2) Get credentials</h4>
-Now navigate to the app and you should find the Client ID and below that the Client Secret (click on "Show Client Secret" to view it). Save the two somewhere safe because we will need them soon in our Python Code.  <br>
+Now navigate to the app and you should find the Client ID and below that the Client Secret (click on "Show Client Secret" to view it). Save the two somewhere safe because we will need them soon in our Python Code.  
+&nbsp;
 
 ![2 Credentials](readme_images/2_credentials.png)
 
