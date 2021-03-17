@@ -1,7 +1,7 @@
 
 
 <h1 align="center" style="border-bottom: none;">🤖 IBM Watson Assistant  Tutorial 🤖</h1>
-<h3 align="center">In this tutorial you will see how to link the IBM Cloud Watson Assistant to the Spotify API using Python and the IBM Cloud Functions to search for songs, albums or artists. </h3>
+<h3 align="center">In this tutorial you will see how to link the IBM Cloud Watson Assistant to the Spotify API using Python and the IBM Cloud Functions to search for songs, albums and artists. </h3>
 
 
 ## Prerequisites
@@ -11,7 +11,7 @@
 3. After you submit your registration, you will receive an e-mail from the IBM Cloud team with details about your account. In this e-mail, you will need to click the link provided to confirm your registration.
 4. Now you should be able to login to your new IBM Cloud account ;-)
 5. Also sign up for an [Spotify Developer account](https://developer.spotify.com/dashboard/login).
-6. Lastly install [Python](https://www.python.org/downloads/) and a coding environment like [Visual Studio](https://www.python.org/downloads/) for example.
+6. Lastly install [Python](https://www.python.org/downloads/).
 
 ## Setting up Spotify API
 
@@ -25,10 +25,10 @@ Now navigate to the app and you should find the Client ID and below that the Cli
 
 ![2 Credentials](readme_images/2_credentials.png)
 
-## Connect to the Spotify API 
+##  Building our Cloud Function 
 
-<h4>1) Install Spotipy</h4>
-Go to your prefered coding environment and open your terminal to install [Spotipy](https://spotipy.readthedocs.io/en/2.17.1/) is a Python library to work with the Spotify Web API. Use the following command: 
+<h4>1) Create a Cloud Function </h4>
+Go to 
 
 ```
 pip install spotipy
@@ -45,7 +45,15 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 ```
 To access the Spotify API we need to establish a connection and provide the API with the required credentials. 
-Create two string variables ```called client_id ``` and ```client_secret``` and assign them the Client ID and Client Secret we saved earlier.
+Create two string variables called
+```
+client_id
+```
+and 
+```
+client_secret
+``` 
+and assign them the Client ID and Client Secret we saved earlier.
 
 
 
