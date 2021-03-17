@@ -28,33 +28,10 @@ Now navigate to the app and you should find the Client ID and below that the Cli
 ##  Building our Cloud Function 
 
 <h4>1) Create a Cloud Function </h4>
-Go to 
+Go to the IBM Cloud website, log in and search for Cloud Functions. You could also look for Functions in the IBM Cloud catalog. 
+Now navigate to Actions and create a new Action. The name and package is up to you, but don't forget to set the Runtime to Python.
 
-```
-pip install spotipy
-```
-or to upgrade:
-
-```
-pip install spotipy --upgrade
-```
-<h4>1) Access API</h4>
-Now create an python file in your coding environment and import Spotipy:  
-```
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
-```
-To access the Spotify API we need to establish a connection and provide the API with the required credentials. 
-Create two string variables called
-```
-client_id
-```
-and 
-```
-client_secret
-``` 
-and assign them the Client ID and Client Secret we saved earlier.
-
+Copy and Paste the Python Code from the SpotifySearch.py file in your action.  
 
 
 ## If you have any questions just contact me
