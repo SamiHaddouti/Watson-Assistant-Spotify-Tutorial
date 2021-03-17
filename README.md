@@ -65,10 +65,11 @@ Now go back to the IBM Cloud Website and search for the Watson Assistant. There 
 
 The skill should be imported now. To link it to your Cloud Function go to the Dialog Dashboard and click on the Search node.
 
-![6 Assistant Dialog](readme_images/5_assistant_dialog.png)
+![6 Assistant Dialog](readme_images/6_assistant_dialog.png)
 
+Here we will have to authenticate the Assistant for access to the Cloud Function. For that first click on the Artist Search Node and open the JSON Editor (three Dots on the right). Now in the actions section paste in the URL you copied from the Function Endpoint and below that in the context section insert the username and password from the API KEY.
 
-In the imported Watson Skill you can now try out the Assistant.
+Now you have linked the Function to the Assistant, feel free to try it out. 
 
 
 ## If you have any questions just contact me
