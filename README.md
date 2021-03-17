@@ -36,7 +36,13 @@ Now navigate to the app and you should find the Client ID and below that the Cli
 Go to the IBM Cloud website, log in and search for Cloud Functions. You could also look for Functions in the IBM Cloud catalog. 
 Now navigate to Actions and create a new Action. The name and package is up to you, but don't forget to set the Runtime to Python.
 
-Copy and Paste the Python Code from the SpotifySearch.py file in your action.  
+&nbsp;
+
+![3 Create Action](readme_images/3_create_action.png)
+
+Copy and Paste the Python Code from the SpotifySearch.py file in your action. Most of the code is explained with comments but if you find something odd or encounter problems don't bother to ask.
+
+
 
 
 ## If you have any questions just contact me
