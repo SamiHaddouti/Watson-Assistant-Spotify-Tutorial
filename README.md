@@ -44,7 +44,9 @@ Copy and Paste the Python Code from the SpotifySearch.py file in your action. Mo
 
 In your action dashboard go to Endpoints and write down the REST API URL and the API KEY which consists of a username (everthing in front of the colon = :) and a password (the rest after the colon). We will need the URL and authentication for later to link our function to the assistant.
 
-Now lastly we will check if our code works. For that go back to your code and click on Invoke with parameters. Copy and paste the lines below or feel free to search for something else. Just define the search and item parameters with adequate values.
+![4 Endpoint](readme_images/4_endpoint.png)
+
+Now lastly we will check if our code works. For that go back to your code and click on Invoke with parameters. Copy and paste the lines below or feel free to search for something else (just define the search and item parameters with adequate values). 
 
 ```
 {
@@ -52,6 +54,11 @@ Now lastly we will check if our code works. For that go back to your code and cl
     "item": "Graduation"
 }
 ```
+Then click on Invoke and you should get an url as result and a green check mark.
+If not, check the logs to find the error. 
+
+## Building the Watson Assistant
+
 
 ## If you have any questions just contact me
 Sami Haddouti<br>
