@@ -1,6 +1,6 @@
 
 
-<h1 align="center" style="border-bottom: none;">🤖 IBM Watson Assistant  Tutorial 🤖</h1>
+<h1 align="center" style="border-bottom: none;">🤖 IBM Watson Assistant Spotify  Tutorial 🤖</h1>
 <h3 align="center">In this tutorial you will see how to link the IBM Cloud Watson Assistant to the Spotify API using Python and the IBM Cloud Functions to search for songs, albums and artists. </h3>
 
 
