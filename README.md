@@ -67,7 +67,7 @@ The skill should be imported now. To link it to your Cloud Function go to the Di
 
 ![6 Assistant Dialog](readme_images/6_assistant_dialog.png)
 
-Here we will have to authenticate the Assistant for access to the Cloud Function. For that first click on the Artist Search Node and open the JSON Editor (three Dots on the right). Now in the actions section paste in the URL you copied from the Function Endpoint and below that in the context section insert the username and password from the API KEY.
+Here we will have to authenticate the Assistant for access to the Cloud Function. For that first click on the Artist Search Node and open the JSON Editor (three Dots on the right). Now in the actions section paste in the last part of the URL (like on the screenshot) you copied from the Function Endpoint and below that in the context section insert the username and password from the API KEY.
 
 ![7 JSON Editor](readme_images/7_JSON_Editor.png)
 
