@@ -69,7 +69,9 @@ The skill should be imported now. To link it to your Cloud Function go to the Di
 
 Here we will have to authenticate the Assistant for access to the Cloud Function. For that first click on the Artist Search Node and open the JSON Editor (three Dots on the right). Now in the actions section paste in the URL you copied from the Function Endpoint and below that in the context section insert the username and password from the API KEY.
 
-Now you have linked the Function to the Assistant, feel free to try it out. 
+Now you have linked the Function to the Assistant for that node, you will have to repeat the Authentication from above in the other two Search Options (Album_Search and Track_Search).
+
+After that feel free to try it out by asking the assistant to search a song, album or artist. 
 
 
 ## If you have any questions just contact me
