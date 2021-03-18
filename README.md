@@ -59,7 +59,7 @@ If not, check the logs to find the error.
 
 ## Building the Watson Assistant
 
-Now go back to the IBM Cloud Website and search for the Watson Assistant. There you can create a new instance. Launch it and navigate to the Skills. Click on Create Skill, select the Dialog Skill and then Upload Skill. Download the Spotify-Skill file from this repository  and upload it to the assistant. 
+Now go back to the IBM Cloud Website and search for the Watson Assistant. There you can create a new instance. Launch it and navigate to the Skills. Click on Create Skill, select the Dialog Skill and then Upload Skill. Download the skill-Spotify-Search file from this repository  and upload it to the assistant. 
 
 ![5 Watson Skill](readme_images/5_watson_skill.png)
 
